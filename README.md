@@ -2,6 +2,19 @@
 
 ZEO Server [Docker](http://docker.com) image based on [plone.recipe.zeoserver](https://pypi.python.org/pypi/plone.recipe.zeoserver)
 
+## Supported tags and respective Dockerfile links
+
+- `2.13.23, 2.13, 2, latest` [(2.13/debian/Dockerfile)](https://github.com/plone/zeoserver.docker/blob/master/2.13.23/debian/Dockerfile)
+- `2.13.23-alpine, 2.13-alpine, 2-alpine` [(2.13/alpine/Dockerfile)](https://github.com/plone/zeoserver.docker/blob/master/2.13.23/alpine/Dockerfile)
+
+## Base docker image
+
+ - [hub.docker.com](https://registry.hub.docker.com/u/plone/zeoserver)
+
+## Source code
+
+  - [github.com](http://github.com/plone/plone.zeoserver)
+
 ## Documentation
 
 You can find all the documentation in the [docs](https://github.com/plone/zeoserver.docker/blob/master/docs)
