@@ -20,7 +20,7 @@ RUN buildDeps="gcc libc6-dev" \
  && rm -rf /var/lib/apt/lists/* \
  && find /plone \( -type f -a -name '*.pyc' -o -name '*.pyo' \) -exec rm -rf '{}' +
 
-VOLUME /data/filestorage /data/blobstorage
+VOLUME /data
 
 COPY docker-entrypoint.sh /
 

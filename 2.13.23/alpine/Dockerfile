@@ -21,7 +21,7 @@ RUN apk add --no-cache --virtual .build-deps \
  && apk add --no-cache --virtual .run-deps bash \
  && find /plone \( -type f -a -name '*.pyc' -o -name '*.pyo' \) -exec rm -rf '{}' +
 
-VOLUME /data/filestorage /data/blobstorage
+VOLUME /data
 
 COPY docker-entrypoint.sh /
 
