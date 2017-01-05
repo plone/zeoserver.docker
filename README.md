@@ -15,9 +15,15 @@ ZEO Server [Docker](http://docker.com) image based on [plone.recipe.zeoserver](h
 
   - [github.com](http://github.com/plone/plone.zeoserver)
 
+### Supported Environment Variables
+
+* `HEALTH_CHECK_TIMEOUT` - Time in seconds to wait until health check starts. Defaults to `1` second.
+* `HEALTH_CHECK_INTERVAL` - Interval in seconds to check that the ZEO application is still healthy. Defaults to `1` second.
+
 ## Documentation
 
 You can find all the documentation in the [docs](https://github.com/plone/zeoserver.docker/blob/master/docs)
+
 
 ## Contribute
 
