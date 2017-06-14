@@ -18,7 +18,7 @@ RUN apk add --no-cache --virtual .build-deps \
  && buildout -c buildout.cfg \
  && chown -R plone:plone /plone /data \
  && apk del .build-deps \
- && apk add --no-cache --virtual .run-deps bash \
+ && apk add --no-cache --virtual .run-deps bash tzdata \
  && find /plone \( -type f -a -name '*.pyc' -o -name '*.pyo' \) -exec rm -rf '{}' +
 
 VOLUME /data
